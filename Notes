@@ -1,0 +1,18 @@
+Anotações do projeto (PetShopSZL + Node + TypeScript)
+
+* npm install -g nodemon typescript ts-node
+
+* npm install (instalando as dependências)
+
+* npm init ( para criar o package.json - Configurei nome do projeto, autor e yes, para o restante)
+
+* stc --init ( arquivo de configuração do TypeScript)
+
+* npm install express mustache-express dotenv
+
+- Instalando as tipagem TypeScript para express, mustache e node
+
+* npm install --save-dev @types/express @types/mustache-express @types/node
+
+
+
