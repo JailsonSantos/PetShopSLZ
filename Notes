@@ -1,18 +1,25 @@
 Anotações do projeto (PetShopSZL + Node + TypeScript)
 
+- Requesitos necessários para o projeto (Instalar de forma global)
 * npm install -g nodemon typescript ts-node
 
-* npm install (instalando as dependências)
+- Instalação das dependências
+* npm install 
 
-* npm init ( para criar o package.json - Configurei nome do projeto, autor e yes, para o restante)
+- package.json - Configurando nome do projeto, autor e yes, para o restante das opções)
+* npm init 
 
-* stc --init ( arquivo de configuração do TypeScript)
+- Arquivo de configuração do TypeScript
+* stc --init 
 
+- Intalação de bibliotecas
 * npm install express mustache-express dotenv
 
 - Instalando as tipagem TypeScript para express, mustache e node
-
 * npm install --save-dev @types/express @types/mustache-express @types/node
 
-
+- Usando o git pela primeira vez para mandar as alterações pro GitHub
+* git add .
+* git commit -m "Base do projeto criada e configurada"
+* git push
 

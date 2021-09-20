@@ -15,13 +15,11 @@ server.engine('mustache', mustache());
 server.use(express.static(path.join(__dirname, '../public')));
 
 // Rotas
-
 server.use(mainRoutes);
 
 server.use((req, res) => {
-  res.send('páginaao encontrada!');
+  res.render('pages/404');
 });
-
 
 // Vai ouvir a porta ex: 4000 que vai rodar o projeto
 server.listen(process.env.PORT);
